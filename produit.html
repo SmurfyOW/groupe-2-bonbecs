@@ -36,75 +36,28 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-header navbar-dark">
+        <div class="container-fluid d-flex justify-content-between align-items-center font-nunito w-95 fs-5">
+            <!-- Logo -->
+            <img class="w-5" src="img/LOGO.png" alt="Logo Bonbecs">
+
+            <!-- Menu burger + liens -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link" href="#">Article</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
 
 <body>
-    <main>
-        <h1>Nos Produits</h1>
 
-        <!-- Créatiuon des cartes produit -->
+    <h1>test</h1>
 
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/arlequini.webp" class="card-img-top" alt="photo de bonbon arlequin" title="Photo de bonbon">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s
-                        content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="img/bonbonVrac.jpg" class="card-img-top" alt="photo de bonbon arlequin" title="Photo de bonbon">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s
-                        content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="img/fraise-tagada.jpg" class="card-img-top" alt="photo de bonbon arlequin" title="Photo de bonbon">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s
-                        content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/M&M'sss.jpg" class="card-img-top" alt="photo de bonbon arlequin" title="Photo de bonbon">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s
-                        content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-
-
-            <div class="card" style="width: 18rem;">
-                <img src="img/Shamallow.jpg" class="card-img-top" alt="photo de bonbon arlequin" title="Photo de bonbon">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s
-                        content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    </main>
     <!-- Script Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
@@ -114,5 +67,68 @@
     <script src="script.js"></script>
 
 </body>
+<!-- Footer -->
+<footer
+    class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 px-5 justify-content-between p-0 m-0 bg-header text-white">
+
+    <!-- Logo + Copyright -->
+    <div class="col d-flex flex-column align-items-center align-items-md-start text-center text-md-start">
+        <!-- Logo -->
+        <img class="w-5" src="img/LOGO.png" alt="Logo Bonbecs">
+        <!-- Copyright -->
+        <p class="text-white">© Copyright - Bonbecs</p>
+    </div>
+
+    <!-- Navbar -->
+    <div class="col mb-3 d-flex flex-column align-items-center text-center text-md-start align-items-md-start">
+        <ul class="nav flex-column">
+            <!-- Accueil -->
+            <li class="nav-item mb-2"><a href="#accueil" class="p-0 text-white text-decoration-none hover">Accueil</a>
+            </li>
+            <!-- à propos -->
+            <li class="nav-item mb-2"><a href="#about" class="p-0 text-white text-decoration-none hover">À
+                    Propos</a></li>
+            <!-- Portfolio -->
+            <li class="nav-item mb-2"><a href="#portfolio"
+                    class="p-0 text-white text-decoration-none hover">Portfolio</a></li>
+            <!-- FAQ -->
+            <li class="nav-item mb-2"><a href="#faq" class="p-0 text-white text-decoration-none hover">FAQ</a></li>
+            <!-- Contact -->
+            <li class="nav-item mb-2"><a href="#contact" class="p-0 text-white text-decoration-none hover">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Navbar 2 -->
+    <div class="col mb-3 d-flex flex-column align-items-center text-center text-md-start align-items-md-start">
+        <ul class="nav flex-column">
+            <!-- Mentions Légales -->
+            <li class="nav-item mb-2"><a href="mentions.php" class="p-0 text-white text-decoration-none hover">Mentions
+                    légales</a></li>
+            <!-- Politiques de confidentialité -->
+            <li class="nav-item mb-2"><a href="politique.php"
+                    class="p-0 text-white text-decoration-none hover">Politique de confidentialité</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Réseaux -->
+    <div class="d-flex mt-3">
+        <ul class="nav justify-content-around w-50 footer-reseaux">
+            <li class="nav-item mb-2 ft-20">
+                <!-- Github -->
+                <a href="https://github.com/SmurfyOW" class="nav-link p-0 text-white hover" target="_blank"><i
+                        class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="nav-item mb-2 ft-20 hover">
+                <!-- Linkedin -->
+                <a href="https://www.linkedin.com/in/florian-wysocki-lnk/" class="nav-link p-0 text-white hover"
+                    target="_blank"><i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
 
 </html>
