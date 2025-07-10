@@ -2,26 +2,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Chewy&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 h1, h2, h3, h4, h5{
     font-family: "Chewy", system-ui;
+    color: #222222;
 }
 
 p{
    font-family: "Nunito", sans-serif; 
+   color: #222222;
 }
+
+.font-chewy{
+    font-family: "Chewy", system-ui;
+}
+
+.font-nunito{
+    font-family: "Nunito", sans-serif; 
+}
+
+
 
 
 
 
 
 /* Commande Couleur */
-/* Header + Footer : #5784BA
-#F4CFDF (rose pale)
-#B6D8F2 (bleu ciel)
-#F7F6CF (jaune pastel */
+/* Header + Footer : #5784BA */
+.bg-header{
+    background-color: #5784BA !important;
+}
 
+/* #F4CFDF (rose pale) */
+.bg-rose{
+    background-color: #F4CFDF !important;
+}
+.text-rose{
+    color: #F4CFDF !important;
+}
+
+/* #B6D8F2 (bleu ciel) */
+.bg-bleu{
+    background-color: #B6D8F2 !important;
+}
+.text-bleu{
+    color: #B6D8F2 !important;
+}
+
+/* #F7F6CF (jaune pastel) */
+.bg-jaune{
+    background-color: #F7F6CF !important;
+}
+.text-jaune{
+    color: #F7F6CF !important;
+}
 
 
 /* Commande Width */
+.w-5{
+    width: 5vw;
+}
 
+.w-95{
+    width: 95vw;
+}
 
 
 
